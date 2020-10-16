@@ -1,0 +1,26 @@
+.expence{
+    display: inline;
+    justify-content: space-around;
+    display: flex;
+    background-color: aliceblue;
+    box-shadow: rgb(15, 61, 100);     
+}
+
+.header {
+    text-align: center;
+}
+
+.balance{
+    text-align: center;
+
+}
+
+.container{
+    max-width: 400px;
+    min-height: 550px;
+    margin: 0 auto;
+    box-shadow: aliceblue;
+    background-color: aqua;
+    margin-top: 50px;
+    padding: 30px;
+}
