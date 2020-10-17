@@ -13,14 +13,12 @@ const History = () => {
             <h3>History</h3>
             <hr/>
             {transactions.map((transObj, ind) => {
-                return (
-                <li key={ind}>
-                    <span>{transObj.desc}</span>
-                    <span>{transObj.amount}</span>
-                    
-                </li>
-                )
-            })}
+                    return (<li key={ind}>
+                        <span>{transObj.desc}</span>
+                        <span>{transObj.amount}</span>
+                    </li>
+                    )
+                })}
 
            
         </div>
