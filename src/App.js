@@ -4,6 +4,7 @@ import Header from './Header'
 import Balance from './Balance'
 import ExpenceContainer from './ExpenceContainer';
 import History from './History';
+import TransactionForm from './TransactionForm';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <Balance />
      <ExpenceContainer />
      <History/>
+     <TransactionForm />
     </div>
   );
 }

@@ -2,11 +2,11 @@ import React from 'react'
 
 const Balance = () => {
     return (
-        <div>
-        <h2>your Balance<br/>$260</h2>
+        <div className="balance">
+        <h3>your Balance<br/>$260</h3>
         </div>
     )
 }
 
-export default Balance
+export default Balance;
 
