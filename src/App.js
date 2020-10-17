@@ -7,8 +7,12 @@ import History from './History';
 import TransactionForm from './TransactionForm';
 
 
+
+
+
 function App() {
   return (
+   
     <div className="container">  
      <Header />
      <Balance />
@@ -16,6 +20,7 @@ function App() {
      <History/>
      <TransactionForm />
     </div>
+   
   );
 }
 

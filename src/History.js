@@ -1,21 +1,18 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { TransactionContext } from './TransactionContext'
+
 
 
 const History = () => {
-
-    let transaction = [{
-        amount:  500, desc: "Cash",
-        amount: -200, desc: "book",
-        amount:  -40,  desc: "camera"
-    }]
-
-    console.log(transaction)
+    let transactions = useContext(TransactionContext)
+    console.log(transactions)
+    
 
     return (
         <div className="History">
             <h3>History</h3>
             <hr/>
-            {transaction.map((transObj, ind) => {
+            {transactions.map((transObj, ind) => {
                 return (
                 <li key={ind}>
                     <span>{transObj.desc}</span>
