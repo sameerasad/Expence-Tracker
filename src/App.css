@@ -58,6 +58,15 @@
    background-color:white;
    justify-content:space-between;
    margin-top: 10px;
+   padding: 5px;
    
+
    
 }
+.History > li > span
+{ 
+    border-left: 2px;
+    border-color: red;
+
+}
+
