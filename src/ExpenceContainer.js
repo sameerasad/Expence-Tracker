@@ -10,4 +10,4 @@ const ExpenceContainer =() => {
 }
 
 
-export default ExpenceContainer
+export default ExpenceContainer;
